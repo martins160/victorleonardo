@@ -1,0 +1,571 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800';
+
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+body{ 
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.conteudo{
+    margin: auto;
+    width: 95%;    
+}
+
+.header{
+    height: 50px;    
+    background: #000;
+}
+
+ .header .conteudo{
+    background: #000;
+    float: left;
+    width: 100%;
+}
+
+.logo{ 
+    margin: 0px;
+}
+
+.logo img{
+    width: 70%;
+    margin: 7px 0 0 10px;
+}
+
+.header .conteudo{
+    display: flex;
+    justify-content: space-between;    
+    position: fixed;
+    z-index: 100;    
+}
+
+.icon-menu{
+    display: block;
+    width: 42px;
+    height: 40px;
+    font-size: 25px;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    line-height: 40px;
+    padding: 5px;
+    margin: 5px 9px 5px 5px;
+    margin-left: auto;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.nav{
+    position: absolute;
+    top: 50px;
+    left: -100%;
+    width: 100%;
+    transition: all 0.4s; 
+    z-index: 100;
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;    
+}
+
+.menu li a{
+    display: block;
+    padding: 15px;
+    background-color: rgba(0,0,0,0.9);
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    font-size: 15px;
+    font-weight: 300;
+}
+.menu li a:hover{
+    background-color: rgba(0,0,0,1);
+    color: #fff;
+    transition: all 0.4s;
+    text-decoration: none;
+}
+
+.mostrar{
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.trabalhos{
+    margin: 10px 0 10px 0;
+}
+
+.trab_titulo{
+    font-size: 20px;
+    color: #212121;
+    font-weight: 300;
+    text-align: center;
+}
+
+.trab_titulo strong{
+    font-size: 25px;    
+    font-weight: 800;
+}
+
+.trab_bloco p{
+    text-align: center;
+    font-size: 17px;
+    color: #4E4E4E;
+}
+
+
+
+
+
+.category{
+    width: 100%;
+    background: #000;
+    padding: 15px 0;
+}
+
+.cat_titulo{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+
+.cat_titulo strong{
+    font-size: 25px;    
+    font-weight: 800;
+}
+
+.categoria{
+    width: 100%;    
+}
+
+.categoria ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+}
+
+.categoria ul li{
+    padding: 5px 0;
+}
+
+.categoria ul li a{
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.categoria ul li a:hover{
+    text-decoration: none;
+    background: #fff;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+.instagram{
+    width: 100%;    
+    padding: 15px 0;
+}
+
+.insta_titulo{
+    font-size: 23px;
+    color: #202020;
+    font-weight: 800;
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+
+.insta ul{       
+    margin: 0;
+    padding: 0;
+    list-style: none;    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+}
+
+.insta ul li{
+    margin: 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+.youtube{
+    margin: 0 0 20px 0;
+}
+
+.tube_titulo{
+    font-size: 23px;
+    color: #202020;
+    font-weight: 800;
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+
+.tube_video{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 0px; 
+    overflow: hidden;
+}
+
+
+.tube_video iframe,
+.tube_video object,
+.tube_video embed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.contato{
+    background: #000;
+    padding: 20px 0;
+}
+
+.contato_titulo{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 800;
+    margin: 0 0 15px 0;
+}
+
+.contato label{
+    color: #fff;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    padding: 30px 0;
+}
+
+.tel{
+    text-align: center;
+    font-weight: 800;
+    font-size: 24px;
+    color: #000;
+    margin: 0 0 20px 0;
+}
+
+.face{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 70px; 
+    overflow: hidden;
+}
+
+
+.face iframe,
+.face object,
+.face embed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.end{
+    margin: 20px 0 0 0;
+    text-align: center;
+    font-size: 15px;
+    color: #444444;
+    font-size: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:1024px){
+    
+    .header{
+       
+        float: left;
+        width: 100%;
+    }
+    
+    .header .conteudo{        
+        float: left;
+        width: 100%;
+        height: 100px;
+    }
+    
+    .logo{ 
+        margin: 0px;
+        width: 307px;
+    }
+
+    .logo img{
+        width: 100%;
+        margin: 18px 0 0 106px;
+    }
+    
+    .nav{
+        position: static;
+        width: auto;
+        margin: 40px 0;
+    }
+    
+    .icon-menu{
+        display: none;
+    }
+    
+    .menu{
+        display: flex;
+        margin: -17px 100px 0 0 !important;       
+    }
+    
+    .menu li a{
+        background: none;        
+        color: #aaaaaa;        
+        padding: 15px 20px;        
+        text-decoration: none;       
+        border-bottom: none;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .menu li a:hover{
+        border-bottom: 1px solid #fff;        
+        transition: all 0.4s;
+        text-decoration: none;
+    } 
+    
+    .trabalhos{
+        margin: 50px 0 20px 0;
+    }
+    
+    .trab_titulo{
+        font-size: 25px;
+        color: #212121;
+        font-weight: 300;
+        text-align: left;
+        margin: 0 0 20px 0;
+    }
+
+    .trab_titulo strong{
+        font-size: 40px;    
+        font-weight: 800;
+    }
+    
+    .trab_bloco{
+        margin: 0 0 20px 0;
+    }
+    
+    .trab_flex{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .category{    
+        padding: 20px 0;
+    }
+    
+    .cat_titulo{
+        font-size: 25px;
+        color: #fff;
+        font-weight: 300;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+
+    .cat_titulo strong{
+        font-size: 40px;    
+        font-weight: 800;
+    }
+    
+    .categoria ul{
+        margin: 0 0 10px 0;
+        padding: 0;
+        list-style: none;
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;           
+    }
+
+    .categoria ul li{
+        padding: 5px 0;
+    }
+
+    .categoria ul li a{
+        color: #fff;
+        font-size: 17px;
+        padding: 5px 10px;
+    }
+
+    .categoria ul li a:hover{
+        text-decoration: none;
+        background: #fff;
+        color: #000;
+    }
+    
+    .instagram{          
+        padding: 30px 0;
+        margin: 10px 0 50px 0;
+    }
+
+    .insta_titulo{
+        font-size: 40px;
+        color: #202020;
+        font-weight: 800;
+        text-align: left;
+        margin: 0 0 15px 0;
+    }
+
+    .insta ul{       
+        margin: 0;
+        padding: 0;
+        list-style: none;  
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;           
+    }
+    
+    .youtube{
+        margin: 0 0 30px 0;
+    }
+
+    .tube_titulo{
+        font-size: 40px;
+        color: #202020;
+        font-weight: 800;
+        text-align: center;
+        margin: 0 0 15px 0;
+    }
+
+    
+    .contato{        
+        padding: 20px 0 40px 0;
+    }
+
+    .contato_titulo{
+        text-align: center;
+        color: #fff;
+        font-size: 40px;
+        font-weight: 800;
+        margin: 0 0 20px 0;
+    }
+
+    .contato label{
+        color: #fff;
+        font-weight: 100;
+        font-size: 20px;
+    }
+    
+    .footer{
+        padding: 40px 0 30px 0;
+    }
+
+    .tel{
+        text-align: center;
+        font-weight: 800;
+        font-size: 40px;
+        color: #000;
+        margin: 0 0 30px 0;
+    }
+
+    .face{
+        position: relative;
+        padding-bottom: 40%;
+        padding-top: 0px;  
+        
+        
+        max-width: 500px !important;
+        margin: 0 0 0 30px;
+    }
+    
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
