@@ -1,3 +1,5 @@
+/********************VERSÃO MOBILE*********************/
+
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800';
 
 *{
@@ -20,6 +22,11 @@ body{
     margin: auto;
     width: 95%;    
 }
+
+
+
+
+/********************HEADER*********************/
 
 .header{
     height: 50px;    
@@ -108,7 +115,7 @@ body{
 
 
 
-
+/********************TRABALHOS*********************/
 
 .trabalhos{
     margin: 10px 0 10px 0;
@@ -135,6 +142,8 @@ body{
 
 
 
+
+/********************CATEGORIAS*********************/
 
 .category{
     width: 100%;
@@ -192,6 +201,7 @@ body{
 
 
 
+/********************INSTAGRAM*********************/
 
 .instagram{
     width: 100%;    
@@ -228,7 +238,7 @@ body{
 
 
 
-
+/********************YOUTUBE*********************/
 
 .youtube{
     margin: 0 0 20px 0;
@@ -267,7 +277,7 @@ body{
 
 
 
-
+/********************CONTATO*********************/
 
 .contato{
     background: #000;
@@ -294,7 +304,7 @@ body{
 
 
 
-
+/********************FOOTER*********************/
 
 .footer{
     padding: 30px 0;
@@ -340,6 +350,58 @@ body{
 
 
 
+/******************************************************************VERSÃO TABLET 480*********************************************************/
+@media(min-width:480px){
+    .instagram{ 
+        margin: 0 0 25px 0;
+    }
+    
+    .insta_titulo{
+        font-size: 30px;
+        color: #202020;
+        font-weight: 800;
+        text-align: center;
+        margin: 0 0 15px 0;
+    }
+
+    .insta ul{       
+        margin: 0;
+        padding: 0;
+        list-style: none;  
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;           
+    }
+    
+    .insta ul li{
+        margin: 0 5px;
+    }
+    
+    .tube_titulo{
+        font-size: 30px;        
+        text-align: center;        
+    }
+    
+    .tel{       
+        font-size: 35px;
+        margin: 0 0 30px 0;
+    }
+
+    .face{
+        position: relative;
+        padding-bottom: 50%;
+        padding-top: 0px;         
+        
+        max-width: 500px !important;
+        margin: 0 0 0 0px;
+    }
+
+    
+  
+    
+}
 
 
 
@@ -348,10 +410,71 @@ body{
 
 
 
+
+/******************************************************************VERSÃO TABLET 768********************************************************/
+@media(min-width:768px){
+    .trab_titulo{
+        font-size: 25px;
+        margin: 15px 0 10px 0;
+    }
+
+    .trab_titulo strong{
+        font-size: 30px; 
+    }
+
+    .trab_bloco p{       
+        font-size: 20px;
+        font-weight: 300;        
+    }
+    
+    
+    .trab_flex{
+        display: flex;
+        flex-direction: column;       
+        align-items: center;
+    }
+    
+    .face{
+        position: relative;
+        padding-bottom: 32%;
+        padding-top: 0px;         
+        
+        max-width: 500px !important;
+        margin: 0 0 0 110px;
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+/******************************************************************VERSÃO TABLET 960********************************************************/
+@media(min-width:960px){
+
+    
+}
+
+ 
+
+    
+    
+    
+    
+    
+    
+
+
+/******************************************************************VERSÃO DESKTOP 1024********************************************************/
 @media(min-width:1024px){
     
-    .header{
-       
+    .header{       
         float: left;
         width: 100%;
     }
@@ -364,12 +487,12 @@ body{
     
     .logo{ 
         margin: 0px;
-        width: 307px;
+        width: 280px;
     }
 
     .logo img{
-        width: 100%;
-        margin: 18px 0 0 106px;
+        width: 90%;
+        margin: 24px 0 0 106px;
     }
     
     .nav{
@@ -384,17 +507,17 @@ body{
     
     .menu{
         display: flex;
-        margin: -17px 100px 0 0 !important;       
+        margin: -15px 60px 0 0 !important;       
     }
     
     .menu li a{
         background: none;        
         color: #aaaaaa;        
-        padding: 15px 20px;        
+        padding: 15px 15px;        
         text-decoration: none;       
         border-bottom: none;
-        font-size: 15px;
-        font-weight: 400;
+        font-size: 13px;
+        font-weight: 300;
     }
     .menu li a:hover{
         border-bottom: 1px solid #fff;        
@@ -494,7 +617,7 @@ body{
         
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: space-between;           
     }
     
@@ -513,6 +636,7 @@ body{
     
     .contato{        
         padding: 20px 0 40px 0;
+        margin: 40px 0 0 0;
     }
 
     .contato_titulo{
@@ -520,7 +644,7 @@ body{
         color: #fff;
         font-size: 40px;
         font-weight: 800;
-        margin: 0 0 20px 0;
+        margin: 0 0 10px 0;
     }
 
     .contato label{
@@ -550,14 +674,41 @@ body{
         max-width: 500px !important;
         margin: 0 0 0 30px;
     }
-    
-
 
     
 }
 
 
 
+
+/******************************************************************VERSÃO DESKTOP 1280*******************************************************/
+@media(min-width:1280px){
+    .logo{ 
+        margin: 0px;
+        width: 307px; 
+    }
+
+    .logo img{
+        width: 100%;
+        margin: 18px 0 0 106px;
+    }
+    
+    .menu{
+        display: flex;
+        margin: -15px 100px 0 0 !important;       
+    }
+    
+    .menu li a{
+        background: none;        
+        color: #aaaaaa;        
+        padding: 15px 20px;        
+        text-decoration: none;       
+        border-bottom: none;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    
+}
 
 
 
