@@ -155,6 +155,18 @@ body{
 
 
 
+.trab_bloco img{    
+    opacity: 1;
+    transition: all 0.4s ease;
+}
+
+.trab_bloco img:hover{
+    opacity: 0.5;
+}
+
+
+
+
 
 
 /********************CATEGORIAS*********************/
