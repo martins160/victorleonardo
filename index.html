@@ -7,9 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="assets/images/favicon.jpg"/>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link href="https://file.myfontastic.com/6HTV2QuAiE43vFyNsHjePP/icons.css" rel="stylesheet">
-    
-    
+    <link rel="stylesheet" href="https://file.myfontastic.com/6HTV2QuAiE43vFyNsHjePP/icons.css">  
+    <link rel="stylesheet" href="assets/css/animate.min.css">
 </head>
 <body>
 
@@ -17,9 +16,9 @@
 
 <header class="header">
     <div class="conteudo">
-        <h1 class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></h1>
+        <h1 class="logo wow slideInLeft"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></h1>
         <span class="icon-menu" id="btn-menu"></span>
-        <nav class="nav" id="nav">
+        <nav class="nav wow slideInRight" id="nav">
             <ul class="menu">
                 <li><a href="#">INÍCIO</a></li>
                 <li><a href="#">SOBRE NÓS</a></li>
@@ -70,19 +69,19 @@
        <div class="trab_titulo"><strong>Trabalhos</strong> recentes</div>
         <div class="row">
             <div class="col-md-12 col-lg-12 trab_flex">
-               <div class="trab_bloco">
+               <div class="trab_bloco wow slideInLeft">
                    <a href=""><img src="assets/images/temp/03.jpg" alt=""></a>
                    <p>Wedding</p>
                </div>
-               <div class="trab_bloco">
+               <div class="trab_bloco wow slideInLeft">
                    <a href=""><img src="assets/images/temp/04.jpg" alt=""></a>
                    <p>Book Passeio</p>
                </div>
-               <div class="trab_bloco">
+               <div class="trab_bloco wow slideInLeft">
                    <a href=""><img src="assets/images/temp/05.jpg" alt=""></a>
                    <p>Mamães</p>
                </div>
-               <div class="trab_bloco">
+               <div class="trab_bloco wow slideInLeft">
                    <a href=""><img src="assets/images/temp/06.jpg" alt=""></a>
                    <p>Infantil</p>
                </div>                
@@ -99,7 +98,7 @@
         <div class="row">
             <div class="col-md-12 col-lg-12">
                <div class="categoria">
-                    <ul>
+                    <ul class="wow zoomIn">
                         <li><a href="">ANIVERÁRIOS</a></li>
                         <li><a href="">CASAMENTOS</a></li>
                         <li><a href="">EVENTOS EMPRESARIAIS</a></li>
@@ -123,7 +122,7 @@
         <div class="row">
             <div class="col-md-12 col-lg-12">
                 <div class="insta">
-                    <ul>
+                    <ul class="wow lightSpeedIn">
                         <li><a href=""><img src="assets/images/temp/07.jpg" alt=""></a></li>
                         <li><a href=""><img src="assets/images/temp/07.jpg" alt=""></a></li>
                         <li><a href=""><img src="assets/images/temp/07.jpg" alt=""></a></li>
@@ -147,7 +146,7 @@
         <div class="tube_titulo">YouTube</div>
         <div class="row">
             <div class="col-md-12 col-lg-12">
-                <div class="tube_video">
+                <div class="tube_video wow zoomIn">
                     <iframe class="responsive-video" src="https://www.youtube.com/embed/XSU7CWbJJGI?rel=0" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
@@ -168,7 +167,7 @@
         <div class="row">
             <div class="col-md-12 col-lg-12">
                
-               <form>
+            <form class="wow lightSpeedIn">
               <div class="form-group">
                 <label>Nome</label>
                 <input type="text" class="form-control" placeholder="Infome seu Nome">                
@@ -204,14 +203,14 @@
         <div class="row">
             <div class="col-md-3 col-lg-3"></div>
             <div class="col-md-6 col-lg-6">
-                <div class="tel">Tel (34) 99642-8632</div>
-                <div class="face">                   
+                <div class="tel wow slideInLeft">Tel (34) 99642-8632</div>
+                <div class="face wow slideInUp">                   
                     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fvictorleonardofotografia.br&tabs&width=513&height=224&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="513" height="224" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>                    
                 </div>
             </div>
             <div class="col-md-3 col-lg-3"></div>            
         </div>
-        <div class="end">Av Fernando Vilela XX, Martins, Uberlândia MG</div>
+        <div class="end wow slideInRight">Av Fernando Vilela XX, Martins, Uberlândia MG</div>
     </div>    
 </footer>
 
@@ -223,6 +222,12 @@
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/scripts.js"></script>
+
+<script src="assets/js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
 
 </body>
 </html>
