@@ -519,19 +519,38 @@ body{
     }
     
     .menu li a{
+        border-bottom: none;
         background: none;        
         color: #aaaaaa;        
-        padding: 15px 15px;        
+        /*padding: 15px 15px;*/
         text-decoration: none;       
-        border-bottom: none;
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 300;
     }
-    .menu li a:hover{
+    
+    .menu li a:after{
+        content: "";
+        display: table;
+        width: 0%;
+        height: 1px;
+        background: #fff;
+        margin: 5px auto 0;
+        
+        transition: all 0.4s ease;
+    }    
+  
+        
+    .menu li a:hover:after{
+        width: 60%;  
+    }
+        
+
+    
+    /*.menu li a:hover{
         border-bottom: 1px solid #fff;        
         transition: all 0.4s;
         text-decoration: none;
-    } 
+    }*/
     
     .trabalhos{
         margin: 50px 0 20px 0;
@@ -706,7 +725,7 @@ body{
         margin: -15px 100px 0 0 !important;       
     }
     
-    .menu li a{
+    /*.menu li a{
         background: none;        
         color: #aaaaaa;        
         padding: 15px 20px;        
@@ -714,7 +733,7 @@ body{
         border-bottom: none;
         font-size: 15px;
         font-weight: 300;
-    }
+    }*/
     
 }
 
