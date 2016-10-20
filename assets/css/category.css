@@ -1,0 +1,46 @@
+.categorias{
+    width: 100%; 
+    float: left;
+    min-height: 400px !important;
+    background: #fff !important;
+    padding: 0 0 20px 0;
+}
+
+.categorias_titulo{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin: 20px 0;
+    font-weight: 800;    
+}
+
+.categorias p{
+    font-weight: 300;
+}
+
+.cat_bloco{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cat_nome{
+    text-align: center;    
+    color: #222;
+    margin: 5px 0 0 0;
+}
+
+.cat{
+    margin: 0 0 20px 0;
+}
+
+.cat img{    
+    opacity: 1;
+    transition: all 0.4s ease;
+}
+
+.cat img:hover{
+    opacity: 0.5;
+}
