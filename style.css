@@ -12,13 +12,95 @@ body{
 }
 
 html, body{
-	height: 100%;
-    display: block;
+	 height: 100%;
+   display: block;
 }
 
 
 
 
+#header-1 .brand-img{
+  max-width: 150px;
+  padding: 25px 0 0 0;
+}
+
+#header-1 .main-nav .navbar-nav > li.active a{
+  color: #aaa;
+  font-weight: 300;
+}
+
+#header-1 .main-nav .navbar-nav > li a{
+  color: #aaaaaa;
+  font-weight: 300;
+}
+
+#header-1 .main-nav .navbar-nav > li a:hover{
+  color: #fff;
+}
+
+
+#header-1 .main-nav .navbar-nav > li a:after{
+    content: "";
+    display: table;
+    width: 0%;
+    height: 1px;
+    background: #fff;
+    margin: 5px auto 0;
+
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+#header-1 .main-nav .navbar-nav > li a:hover:after{
+    width: 100%;
+}
+
+
+
+.underlined-title h1{
+  font-size: 22px;
+  padding: 0;
+}
+
+.underlined-title{
+  padding: 0;
+}
+
+.fonne{
+  font-size: 20px;
+}
+
+.mail2{
+  font-size: 10px;
+}
+
+.fa-phone{
+  font-size: 20px;
+}
+
+.fa-envelope{
+  display: none;
+}
+
+
+
+.face{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 70px;
+    overflow: hidden;
+}
+
+
+.face iframe,
+.face object,
+.face embed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 
 
@@ -48,12 +130,30 @@ html, body{
 }
 
 .content-block{
-  padding: 60px 0 60px 0 !important;
+  padding: 20px 0 !important;
 }
 
 .content-block2{
   background: #f2f2f2;
   padding:50px 0 !important;
+}
+
+
+.backtopo{
+    width:50px;
+    height:50px;
+    background:url(assets/images/icon_back.jpg) no-repeat;
+    cursor:pointer;
+    position:fixed;
+    z-index:1000;
+    bottom:20px;
+    right:10px;
+    display:none;
+}
+.backtopo:hover{
+    /*background:url(assets/images/icon_back2.png) no-repeat;*/
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
 }
 
 
@@ -66,6 +166,41 @@ html, body{
 /**************************************************************************************************************/
 @media(min-width:480px){
 
+
+  #header-1 .brand-img{
+    max-width: 180px;
+    padding: 25px 0 0 0;
+  }
+
+  .underlined-title h1{
+    font-size: 25px;
+  }
+
+  .insta_{
+    font-size: 40px !important;
+  }
+
+  .contact_{
+    font-size: 35px !important;
+  }
+
+  .fonne{
+    font-size: 35px;
+  }
+
+  .mail2{
+    font-size: 18px;
+  }
+
+  .fa-phone{
+    font-size: 26px;
+  }
+
+  .fa-envelope{
+    display: block;
+    font-size: 35px;
+  }
+
 }
 
 
@@ -73,6 +208,20 @@ html, body{
 
 /*********************************************************************************************************/
 @media(min-width:768px){
+
+
+
+  .face{
+      position: relative;
+      padding-bottom: 20%;
+      padding-top: 70px;
+      overflow: hidden;
+      left: 100px;
+  }
+
+  .backtopo{
+      right: 40px;
+  }
 
 }
 
@@ -82,6 +231,10 @@ html, body{
 
 /*************************************************************************************************************/
 @media(min-width:960px){
+
+  /*.underlined-title{
+    background: #333 !important;
+  }*/
 
   #header-1 .brand-img{
     max-width: 307px;
@@ -128,8 +281,42 @@ html, body{
       width: 60%;
   }
 
+
+  .content-block{
+    padding: 60px 0 60px 0 !important;
+  }
+
   .content-block-nopad{
     background: #11252 !important;
+  }
+
+  .underlined-title h1{
+    font-size: 35px;
+  }
+
+  .fonne{
+    font-size: 20px;
+  }
+
+  .mail2{
+    font-size: 20px;
+  }
+
+  .fa-phone{
+    font-size: 20px;
+  }
+
+  .fa-envelope{
+    display: block;
+    font-size: 20px;
+  }
+
+  .face{
+      position: relative;
+      padding-bottom: 14%;
+      padding-top: 70px;
+      overflow: hidden;
+      left: 200px;
   }
 
 
@@ -141,8 +328,15 @@ html, body{
 
 /********************************************************************************************************/
 @media(min-width:1024px){
-
+  .face{
+      position: relative;
+      padding-bottom: 12%;
+      padding-top: 70px;
+      overflow: hidden;
+      left: 320px;
+  }
 }
+
 
 
 
