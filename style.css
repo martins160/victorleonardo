@@ -1,0 +1,152 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800';
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body{
+    background: #fff;
+}
+
+html, body{
+	height: 100%;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+.effect-lily figcaption h2{
+  font-size: 25px;
+}
+
+.effect-lily figcaption p{
+  color: #fff;
+}
+
+.content-2-7{
+  background: url(assets/images/temp/09.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.fa-smile-o, .fa-thumbs-up, .fa-lightbulb-o, .fa-clock-o{
+  color: #fff;
+}
+
+.counter-text span{
+  color: #fff;
+}
+
+.content-block{
+  padding: 60px 0 60px 0 !important;
+}
+
+.content-block2{
+  background: #f2f2f2;
+  padding:50px 0 !important;
+}
+
+
+
+
+
+
+
+
+/**************************************************************************************************************/
+@media(min-width:480px){
+
+}
+
+
+
+
+/*********************************************************************************************************/
+@media(min-width:768px){
+
+}
+
+
+
+
+
+/*************************************************************************************************************/
+@media(min-width:960px){
+
+  #header-1 .brand-img{
+    max-width: 307px;
+    padding: 18px 0 0 0;
+  }
+
+  #header-1 .main-nav{
+    height: 100px;
+    background: #11252;
+  }
+
+  #header-1 .main-nav .nav{
+    margin: 24px 0 0 0;
+  }
+
+  #header-1 .main-nav .navbar-nav > li.active a{
+    color: #aaa;
+    font-weight: 300;
+  }
+
+  #header-1 .main-nav .navbar-nav > li a{
+    color: #aaaaaa;
+    font-weight: 300;
+  }
+
+  #header-1 .main-nav .navbar-nav > li a:hover{
+    color: #fff;
+  }
+
+
+  #header-1 .main-nav .navbar-nav > li a:after{
+      content: "";
+      display: table;
+      width: 0%;
+      height: 1px;
+      background: #fff;
+      margin: 5px auto 0;
+
+      -webkit-transition: all 0.4s ease;
+      transition: all 0.4s ease;
+  }
+
+  #header-1 .main-nav .navbar-nav > li a:hover:after{
+      width: 60%;
+  }
+
+  .content-block-nopad{
+    background: #11252 !important;
+  }
+
+
+
+
+}
+
+
+
+/********************************************************************************************************/
+@media(min-width:1024px){
+
+}
+
+
+
+/********************************************************************************************************/
+@media(min-width:1280px){
+
+}
